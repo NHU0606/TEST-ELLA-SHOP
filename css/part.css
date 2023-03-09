@@ -622,6 +622,12 @@ a:hover{
     height: 30px;
 }
 
+.viral--btn-addacart:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: rgb(46, 46, 46);
+}
+
 .viral-item-content:hover .viral-item--btn-add {
     transform: translate(-50%, -67px);
     transition: .5s linear;
@@ -712,4 +718,23 @@ a:hover{
 
   .carousel-item2 .carousel-title{
     display: none;
+}
+
+/* footer-content-bottom */
+/* .footer-content-bottom{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.footer-bottom-left{
+    color: rgb(193, 193, 193);
+    font-size: 12px;
+}
+.col.l-6.m-4.c-12.footer-bottom-left,
+.col.l-6.m-4.c-12.footer-bottom-rigth{
+    
+}
+
+.col.l-6.m-4.c-12.footer-bottom-rigth{
+    text-align: right;
 }

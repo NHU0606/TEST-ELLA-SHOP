@@ -87,6 +87,8 @@
     .carousel-des2 div img{
        width: 40%;
     }
+
+   
   }
   
   
@@ -94,6 +96,7 @@
     
   }
   
+
   /*text list product*/
   
   @media (max-width: 1023px) {
@@ -154,6 +157,11 @@
   @media (max-width: 740px) {
     .nav__bars-btn{
         margin-right: 50px;
+    }
+
+    .col.l-5.m-4.c-12.footer-bottom-left,
+    .col.l-5.m-4.c-12.footer-bottom-rigth{
+        text-align: center;
     }
   }
   
